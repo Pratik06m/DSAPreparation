@@ -14,10 +14,10 @@ public class diagonalSum {
         // }
         // return sum;
         for(int i =0; i< matrix.length;i++){
-            sum += matrix[i][i];
+            sum += matrix[i][i]; // primary diagonal
 
             if(i != matrix.length-1-i){
-                sum += matrix[i][matrix.length-1-i];
+                sum += matrix[i][matrix.length-1-i]; // secondary diagonal
             }
         }
         return sum;
