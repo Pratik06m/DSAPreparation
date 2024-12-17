@@ -18,6 +18,8 @@ public class String_Compression {
         return newStr;
     }
 
+    // With the help of String Builder
+
     public static String compressSB(String str){
         StringBuilder sb = new StringBuilder("");
 
