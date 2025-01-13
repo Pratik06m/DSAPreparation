@@ -1,5 +1,3 @@
-import javax.management.remote.SubjectDelegationPermission;
-
 public class Construct {
     public static void main(String[] args) {
         Student s1 = new Student();
