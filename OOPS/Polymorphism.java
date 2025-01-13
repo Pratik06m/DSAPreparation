@@ -1,4 +1,4 @@
-public class Polymorphism {
+public class Polymorphism {     //Compile Time Polymorphism
     public static void main(String[] args) {
         Calculator calc = new Calculator();
         System.out.println(calc.sum(10, 20));
@@ -8,6 +8,7 @@ public class Polymorphism {
 
     }
 }
+// Method Overriding
 class Calculator{
     int sum(int a, int b){
         return a+b;
