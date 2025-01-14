@@ -1,5 +1,5 @@
 public class MethodOverriding {
-    public static void main(String[] args) {
+    public static void main(String[] args) {        // Run time Polymorphism
         Bird b = new Bird();
         b.eat();
     }
